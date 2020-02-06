@@ -1,0 +1,392 @@
+.logo{
+    background: #3a8860;
+
+}
+.logo img{
+    height: 71px;
+}
+.item img{
+    width: 100%;
+}
+.carousel-inner{
+    height: 654px;
+    position: relative;
+}
+
+.ac{
+    background: #71bf97;
+}
+.ac h1{
+    font-family: cursive;
+    color: #f0f6f3;
+}
+.autobiography p{
+    color: #f0f6f3;
+    font-family: cursive;
+    font-size: 20px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    lefT: 386px;
+    color: #71bf97;
+}
+.text p{
+    font-size: 55px;
+    font-family: cursive;
+}
+.transparent {
+    background: #00000038;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 654px;
+}
+.icon{
+    float: left;
+}
+.icon p{
+    padding-left: 167px;
+    color: #f0f6f3;
+    font-family: cursive;
+}
+a:focus, a:hover {
+    color: #3a8860;
+}
+.fa{
+    font-size: 68px;
+    padding-left: 167px;
+    color: #f0f6f3;
+}
+.fa:hover{
+    font-size: 40px; 
+}
+.about{
+    width: 18%;
+    border-top: 1px solid #3a8860;
+}
+.contact{
+    width: 22%;
+    border-top: 1px solid #3a8860;
+}
+.end{
+    background: #3a8860;
+}
+.end p{
+    color: #71bf97;
+}
+@media only screen and (max-width: 1920px) {
+    .logo img {
+        height: 100px;
+        width: 11%;
+    }
+    .text {
+        top: 33%;
+        lefT: 592px;
+    }
+    .ac h1 {
+        font-family: cursive;
+        color: #f0f6f3;
+        font-size: 55px;
+    }
+    .about {
+        width: 26%;
+    }
+    img {
+        width: 100%;
+    }
+    .contact {
+        width: 33%;
+    }
+    .autobiography p {
+        font-size: 27px;
+    }
+    .fa {
+        font-size: 131px;
+        padding-left: 104px;
+    }
+    .icon p {
+        padding-left: 74px;
+        font-size: 30px;
+    }
+    .end p {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .logo img {
+        height: 79px;
+        width: 9%;
+    }
+    .fa {
+        font-size: 76px;
+        padding-left: 150px;
+    }
+    .icon p {
+        padding-left: 146px;
+        font-size: 18px;
+    }
+    .end p {
+        font-size: 22px;
+    }
+    img {
+        width: 86%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .text {
+        top: 44%;
+        lefT: 353px;
+    }
+    .ac h1 {
+        font-size: 40px;
+    }
+    .about {
+        width: 18%;
+    }
+    img {
+        width: auto;
+    }
+    .autobiography p {
+        font-size: 20px;
+    }
+    .contact {
+        width: 22%;
+    }
+    .fa {
+        font-size: 68px;
+        padding-left: 167px;
+    }
+    .icon p {
+        padding-left: 167px;
+    }
+    .end p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+	
+}
+@media only screen and (max-width: 1024px) {
+    .logo img {
+        height: 65px;
+    }
+    .text {
+        lefT: 191px;
+    }
+    .icon p {
+        padding-left: 125px;
+        font-size: 12px;
+    }
+    .fa {
+        font-size: 68px;
+        padding-left: 123px;
+    }
+    .carousel-inner {
+        height: 552px;
+    }
+    .transparent {
+        height: 552px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .transparent {
+        height: 419px;
+    }
+    .carousel-inner {
+        height: 419px;
+    }
+    .about {
+        width: 30%;
+    }
+    .contact {
+        width: 37%;
+    }
+    .ac img {
+        padding-left: 182px;
+    }
+    .text {
+        lefT: 38px;
+    }
+    .fa {
+        font-size: 50px;
+        padding-left: 86px;
+    }
+    .fa:hover {
+        font-size: none;
+    }
+    .icon p {
+        padding-left: 81px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px) {
+	.logo img {
+        height: 43px;
+        width: 14%;
+    }
+    .carousel-inner {
+        height: 254px;
+    }
+    .transparent {
+        height: 254px;
+    }
+    .text p {
+        font-size: 30px;
+    }
+    .text {
+        lefT: 43px;
+    }
+    .ac img {
+        padding-left: 53px;
+    }
+    .about {
+        width: 47%;
+    }
+    .contact {
+        width: 61%;
+    }
+    .fa {
+        font-size: 97px;
+        padding-left: 82px;
+    }
+    .icon p {
+        padding-left: 82px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .logo img {
+        height: 47px;
+        width: 17%;
+    }
+    .carousel-inner {
+        height: 222px;
+    } 
+    .transparent {
+        height: 222px;
+    }
+    .text {
+        lefT: 22px;
+        top: 28%;
+    }
+    .about {
+        width: 60%;
+    }
+    .ac img {
+        padding-left: 7px;
+    }
+    .contact {
+        width: 73%;
+    }
+    .fa {
+        font-size: 65px;
+        padding-left: 82px;
+    }
+}
+@media only screen and (max-width: 411px){
+    .logo img {
+        height: 47px;
+        width: 17%;
+    }
+    .carousel-inner {
+        height: 195px;
+    }
+    .transparent {
+        height: 195px;
+    }
+    .text {
+        lefT: 22px;
+        top: 28%;
+    }
+    .about {
+        width: 58%;
+    }
+    .ac img {
+        padding-left: 8px;
+    }
+    .contact {
+        width: 69%;
+    }
+    .fa {
+        font-size: 65px;
+        padding-left: 82px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .text {
+        lefT: 6px;
+        top: 28%;
+    }
+    .about {
+        width: 61%;
+    }
+    .ac img {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .contact {
+        width: 77%;
+    }
+    .fa {
+        font-size: 110px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .logo img {
+        height: 46px;
+        width: 25%;
+    }
+    .carousel-inner {
+        height: 179px;
+    }
+    .transparent {
+        height: 179px;
+    }
+    .text p {
+        font-size: 26px;
+    }
+    .text {
+        lefT: 20px;
+        top: 27%;
+    }
+    .ac img {
+        padding-left: 0px;
+        width: 299px;
+    }
+    .about {
+        width: 64%;
+    }
+    .contact {
+        width: 80%;
+    }
+@media only screen and (max-width: 320px) {
+    .logo img {
+        height: 51px;
+        width: 30%;
+    }
+    .carousel-inner {
+        height: 153px;
+    }
+    .transparent {
+        height: 153px;
+    }
+    .ac img {
+        padding-left: 0px;
+        width: 258px;
+    }
+    .about {
+        width: 73%;
+    }
+    .contact {
+        width: 90%;
+    }
+    .text p {
+        font-size: 24px;
+    }
+    .text {
+        lefT: 10px;
+        top: 31%;
+    }
+}
